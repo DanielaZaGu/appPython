@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block contenido %}
+<br><br><br><br>
+<div class="contac">
+    <div class="row">
+        <div class="col-md-4 justify-content-md-center login-box" style="width:500px; padding: 20px; ">
+            <h1 id="list-item-4" class="text-center text-success">Contactanos</h1>
+            <br><br>
+            {{ formulario.as_p }}
+            <!-- <form class="holi" method="post"> 
+                
+               <div class="form-group">
+                    <label for="exampleFormControlSelect1">Example select</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    </select>
+                </div>
+
+                <label for="username">Apellido</label>
+                <input type="text" placeholder="Ingrese Apellidos">
+
+                <label for="username">Correo</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                <label for="username">Comentario</label>
+                <input type="textarea" placeholder="Ingrese Un comentario Aquí">
+                <div class="form-group">
+                    <div class="col-md-12 text-right">
+                        <button type="submit" class="btn btn-outline-success">Enviar</button>
+                    </div>
+                </div>
+            </form>-->
+            <br>
+        </div>
+        <br>
+        <div class="col-md-7">
+            <h3 class="text-success">También nos puedes ubicar  en: </h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.7163638266275!2d-75.57092368572685!3d6.300950795439727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442f25d6670d4d%3A0x8043999e5e767b96!2sSENA%20-%20Centro%20de%20Tecnolog%C3%ADa%20de%20la%20Manufactura%20Avanzada!5e0!3m2!1ses!2sco!4v1590619579646!5m2!1ses!2sco" width="600" height="520" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+</div>
+<br><br>
+{% endblock %}

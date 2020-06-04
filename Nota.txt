@@ -1,0 +1,5 @@
+Django=2.2.12
+mongodb+srv://daniela:zapata01@danielacluster-sjiha.mongodb.net/test?retryWrites=true&w=majority
+usuario: daniela
+contraseña: zapata01
+*python manage.py runserver
